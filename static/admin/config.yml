@@ -29,14 +29,14 @@ collections:
             name: members
             widget: list
             fields: 
-              - label: name
-                name: 名前
+              - label: 名前
+                name: name
                 widget: string
-              - label: role
-                name: 役割
+              - label: 役割
+                name: role
                 widget: string
-              - label: Image
-                name: 画像
+              - label: 画像
+                name: Image
                 widget: image
               - label: Character
                 name: 特徴
