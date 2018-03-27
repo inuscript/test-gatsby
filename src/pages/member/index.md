@@ -1,6 +1,7 @@
 ---
 members:
   - image: /img/scratch.jpg
-    name: 太郎
+    name: 太郎くん
     role: ボーカル
 ---
+
