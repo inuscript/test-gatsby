@@ -11,21 +11,49 @@ collections:
     label: ニュース
     folder: "src/pages/news"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "news-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "日付", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Template Key"
+        name: "templateKey"
+        widget: "hidden"
+        default: "news-post"
+      - label: タイトル
+        name: "title"
+        widget: "string"
+      - label: "日付"
+        name: "date"
+        widget: "datetime"
+      - label: 本文
+        name: "body"
+        widget: "markdown"
+  - name: event_schedule
+    label: イベントスケジュール
+    folder: "src/pages/news"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}"
+    fields:
+      - label: "Template Key"
+        name: "templateKey"
+        widget: "hidden"
+        default: "news-post"
+      - label: タイトル
+        name: "title"
+        widget: "string"
+      - label: "日付"
+        name: "date"
+        widget: "datetime"
+      - label: 本文
+        name: "body"
+        widget: "markdown"
 
   - name: "member"
-    label: "Member"
+    label: プロフィール
     files:
       - file: "src/pages/member/index.md"
-        label: Member
+        label: メンバープロフィール
         name: menber
         fields: 
-          - label: Members
+          - label: メンバー
             name: members
             widget: list
             fields: 
