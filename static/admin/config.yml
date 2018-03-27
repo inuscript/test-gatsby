@@ -36,16 +36,16 @@ collections:
                 name: role
                 widget: string
               - label: 画像
-                name: Image
+                name: image
                 widget: image
-              - label: Character
-                name: 特徴
+              - label: 特徴
+                name: character
                 widget: list
                 fields:
-                  - label: key
-                    name: キー
-                  - label: value
-                    name: 値
+                  - label: キー
+                    name: key
+                  - label: 値
+                    name: value
 
                   
 
