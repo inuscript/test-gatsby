@@ -24,7 +24,20 @@ collections:
       - file: "src/pages/member/index.md"
         label: "member"
         name: menber
-        
+        fields: 
+          - label: Members
+            name: members
+            widget: list
+            fields: 
+              - label: name
+                name: name
+                widget: string
+              - label: role
+                name: role
+                widget: string
+              - label: Image
+                name: image
+                widget: image
   - name: "pages"
     label: "Pages"
     files:
