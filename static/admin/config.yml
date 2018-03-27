@@ -30,14 +30,25 @@ collections:
             widget: list
             fields: 
               - label: name
-                name: name
+                name: 名前
                 widget: string
               - label: role
-                name: role
+                name: 役割
                 widget: string
               - label: Image
-                name: image
+                name: 画像
                 widget: image
+              - label: Character
+                name: 特徴
+                widget: list
+                fields:
+                  - label: key
+                    name: キー
+                  - label: value
+                    name: 値
+
+                  
+
   - name: "pages"
     label: "Pages"
     files:
